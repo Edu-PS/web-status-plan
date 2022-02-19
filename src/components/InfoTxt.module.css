@@ -1,0 +1,17 @@
+.contenedor {
+    /* background-color: gainsboro; */
+    padding: .3rem;
+    align-content: center;
+    text-align: center;
+}
+
+.titulo {
+    padding: .1rem;
+    margin: .2rem;
+    font-weight: bold;
+}
+
+.valor {
+    padding: .3rem;
+    border: rgb(202, 187, 187) .15rem ridge;
+}

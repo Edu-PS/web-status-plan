@@ -1,0 +1,5 @@
+.contenedor{
+    /* display: block; */
+    margin: .5rem;
+    border: rgb(185, 185, 185) .3rem ridge;
+}

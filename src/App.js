@@ -1,11 +1,11 @@
-import React from 'react';
-
+import React, { Fragment } from 'react';
+import HEM from './components/HEM';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <Fragment>
+      <HEM/>
+    </Fragment>
   );
 }
 

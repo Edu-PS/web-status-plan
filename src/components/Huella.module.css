@@ -1,0 +1,46 @@
+.contenedor {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border: rgb(155, 145, 145) .5rem ridge;
+    margin: .5rem;
+}
+
+.titulo {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border: rgb(202, 187, 187) .3rem ridge;
+  text-align: center;
+  font-weight:bold;
+  font-size: 2rem;
+  font-style: italic;
+  color: rgb(226, 0, 105);
+  background-color: rgb(255, 251, 0);
+}
+
+
+.informacionGeneral {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0.5rem;
+  border: rgb(202, 187, 187) .3rem ridge;
+}
+
+.imagen {
+  margin: 0.5rem;
+  border: aqua 0.5rem solid;
+
+}
+
+.informacionDetalle {
+  margin: 0.5rem;
+
+}
+
+.comentario {
+  margin: 0.5rem;
+  border: rgb(202, 187, 187) .3rem ridge;
+  text-align: center;
+  background-color: rgb(190, 190, 190);
+  font-weight: bolder;
+}
