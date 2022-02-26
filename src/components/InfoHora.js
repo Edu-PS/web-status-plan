@@ -8,7 +8,7 @@ const InfoHora = (props) => {
         <label>{props.titulo}</label>
       </div>
       <div className={styles.valor}>
-        <text>{props.valor}</text>
+        <label>{props.valor}</label>
       </div>
     </div>
   );

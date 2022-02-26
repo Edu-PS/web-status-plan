@@ -1,0 +1,68 @@
+.contenedor {
+    margin: .5rem;
+    /* padding: .5rem; */
+    background-color: aqua;
+    border: rgb(185, 185, 185) .3rem ridge;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-weight: bold;
+}
+.oculto {
+    visibility: hidden;
+}
+
+.finalizado {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(4, 124, 0);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+}
+
+.calentamiento {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(5, 155, 0);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
+
+.vacio {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(6, 194, 0);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
+
+.protecciones {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(9, 211, 2);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
+
+.parado {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(8, 228, 0);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
+
+.rigideces {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(102, 240, 97);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
+
+.inicial {
+    /* margin: .5rem; */
+    padding: .5rem;
+    background-color: rgb(130, 255, 125);
+    border-top: .2rem solid rgba(0, 0, 0, 0.959);
+
+}
