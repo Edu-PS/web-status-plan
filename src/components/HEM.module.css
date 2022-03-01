@@ -1,6 +1,9 @@
 .contenedor {
   display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
-  width: auto;
+  flex-wrap: wrap;
+  border: .2rem solid black;
+  align-items: stretch;
+  margin: .5rem;
+  /* justify-content: space-around; */
+  /* width: auto; */
 }

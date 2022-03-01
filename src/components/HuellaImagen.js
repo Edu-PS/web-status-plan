@@ -2,13 +2,13 @@ import styles from './HuellaImagen.module.css';
 
 const HuellaImagen = (props) =>{
 
-    const ocultoFinalizado = false;
-    const ocultoCalentamiento = false;
-    const ocultoVacio = false;
-    const ocultoProtecciones = false;
-    const ocultoParado = false;
-    const ocultoRigideces = false;
-    const ocultoInicial = false;
+    const ocultoFinalizado = props.estados.finalizado;
+    const ocultoCalentamiento = props.estados.calentamiento;
+    const ocultoVacio = props.estados.vacio;
+    const ocultoProtecciones = props.estados.protecciones;
+    const ocultoParado = props.estados.parado;
+    const ocultoRigideces = props.estados.rigidez;
+    const ocultoInicial = props.estados.inspeccionInicial;
 
     const styleFinalizado = ocultoFinalizado ? `${styles.finalizado} ${styles.oculto}` : `${styles.finalizado}`; 
     const styleCalentamiento = ocultoCalentamiento ? `${styles.calentamiento} ${styles.oculto}`: `${styles.calentamiento}`; 

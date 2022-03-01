@@ -7,15 +7,14 @@ const Huella = (props) => {
   return (
     <Fragment>
       <div className={styles.contenedor}>
-        <div className={styles.titulo}>HUELLA # {props.numeroHuella}</div>
+        <div className={styles.titulo}>HUELLA # {props.datos.id}</div>
         <div className={styles.informacionGeneral}>
-          <HuellaImagen/>
-          {/* <div className={styles.imagen}>IMAGEN</div> */}
+          <HuellaImagen estados={props.datos.estados}/>
           <div className={styles.informacionDetalle}>
-            <HuellaInformacion />
+            <HuellaInformacion info={props.datos.info}/>
           </div>
         </div>
-        <div className={styles.comentario}>COMENTARIO</div>
+        <div className={styles.comentario}>{props.datos.comentario} </div>
       </div>
     </Fragment>
   );

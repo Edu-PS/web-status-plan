@@ -2,13 +2,13 @@ import styles from './HuellaInformacion.module.css';
 import InfoHora from './InfoHora';
 import InfoTxt from './InfoTxt';
 
-const HuellaInformacion = () => {
+const HuellaInformacion = (props) => {
   return (
     <div className={styles.contenedor}>
-      <InfoTxt titulo="PROYECTO" valor="PERU I" />
-      <InfoTxt titulo="NUMERO SERIE" valor="12345678" />
-      <InfoHora titulo="FECHA INICIO " valor="2022-04-14 12:12:12" />
-      <InfoHora titulo="FECHA PREVISTA FIN" valor="2022-04-14 12:12:12" />
+      <InfoTxt titulo="PROYECTO" valor={props.info.nombreProyecto} />
+      <InfoTxt titulo="NUMERO SERIE" valor={props.info.numeroSerie} />
+      <InfoHora titulo="FECHA INICIO " valor={props.info.fechaInicio} />
+      <InfoHora titulo="FECHA PREVISTA FIN" valor={props.info.fechaFin} />
     </div>
   );
 };

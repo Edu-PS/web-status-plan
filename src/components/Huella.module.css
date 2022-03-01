@@ -1,8 +1,9 @@
 .contenedor {
-    width: fit-content;
+    max-width:35rem;
     background-color: rgb(255, 255, 255);
     border: rgb(155, 145, 145) .5rem ridge;
     margin: .5rem;
+    justify-content: center;
 }
 
 .titulo {
@@ -34,7 +35,6 @@
 
 .informacionDetalle {
   margin: 0.5rem;
-
 }
 
 .comentario {
@@ -43,4 +43,6 @@
   text-align: center;
   background-color: rgb(190, 190, 190);
   font-weight: bolder;
+  width:inherit;
+  height: auto;
 }
